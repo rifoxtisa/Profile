@@ -146,3 +146,36 @@ section#box-profile{
 	margin-right: 15px;
 	border-radius: 3px;
 } 
+section#input-form{
+	position: relative;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 60px;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0 0 7px 0px rgba(136,136,136,0.2)
+}
+#input-form .form{	
+width: 95%;
+display: grid;
+margin-top: 15px;
+margin-left: 25px;
+margin-bottom: 15px;	
+}
+.label{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	color: #333;
+	font-weight: 600;
+}
+.input{
+	font-family: 'Helvetica', sans-serif;
+	padding: 10px 20px 10px 20px;
+	outline: none;
+	border-radius: 3px;
+	border: 1px solid #8888;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 16px;
+}
